@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum | BDS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+</head>
+<body class="sub-page">
+    <div id="cursor-follower"></div>
+    <div class="noise"></div>
+    <div id="loader"></div>
+    <div id="canvas-container"></div>
+    <header>
+        <a href="index.html" class="logo">BDS</a>
+        <div class="lang-switcher-mobile">
+            <a href="javascript:void(0);" class="lang-btn active">KR</a>
+            <span class="divider">|</span>
+            <a href="javascript:void(0);" class="lang-btn">EN</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="nav-menu" id="nav-menu">
+            <div class="nav-links">
+                <a href="index.html" class="active">홈</a>
+                <a href="curriculum.html">교육과정</a>
+                <a href="admission.html">입학안내</a>
+                <div class="lang-switcher">
+                    <a href="javascript:void(0);" class="lang-btn active">KR</a> <span class="divider">|</span>
+                    <a href="javascript:void(0);" class="lang-btn">EN</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="sub-hero">
+            <h1 class="hero-title">
+                <span class="mask-wrap"><span class="mask-item">OUR</span></span>
+                <span class="mask-wrap"><span class="mask-item hero-sub">JOURNEY</span></span>
+            </h1>
+        </section>
+        <section class="bento-grid">
+            <div class="grid-item item-main" data-aos="fade-up">
+                <img src="img/trip.jpg" alt="Field Trip">
+                <div class="overlay">
+                    <span class="gold-text">Field Trip</span>
+                    <h3>현장 학습</h3>
+                </div>
+            </div>
+            <div class="grid-item item-side" data-aos="fade-up">
+                <img src="img/academic.jpg" alt="Academic">
+                <div class="overlay">
+                    <span class="gold-text">Academic</span>
+                    <h3>창의적 융합 연구</h3>
+                </div>
+            </div>
+            <div class="grid-item item-tall" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800"
+                    alt="Curriculum">
+                <div class="overlay">
+                    <span class="gold-text">Program</span>
+                    <h3>체계적인 교육</h3>
+                </div>
+            </div>
+            <div class="grid-item item-wide" data-aos="fade-up">
+                <img src="img/contest.jpg" alt="Contest">
+                <div class="overlay">
+                    <span class="gold-text">Contest</span>
+                    <h3>글로벌 핵심 역량 강화</h3>
+                </div>
+            </div>
+            <div class="grid-item item-side" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1533222481259-ce20eda1e20b?auto=format&fit=crop&w=800"
+                    alt="Adventure">
+                <div class="overlay">
+                    <span class="gold-text">Activity</span>
+                    <h3>도전과 탐험의 날</h3>
+                </div>
+            </div>
+            <div class="grid-item item-floating" data-aos="fade-up">
+                <img src="img/club.jpg" alt="Club Day">
+                <div class="overlay">
+                    <span class="gold-text">Club Day</span>
+                    <h3>예술과 자기 표현</h3>
+                </div>
+            </div>
+            <div class="grid-item item-side" data-aos="fade-up">
+                <img src="https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=800"
+                    alt="Heritage">
+                <div class="overlay">
+                    <span class="gold-text">Culture</span>
+                    <h3>전통 문화 유산 탐방</h3>
+                </div>
+            </div>
+            <div class="grid-item item-end" data-aos="fade-up">
+                <img src="img/seasonal.jpg" alt="Festival">
+                <div class="overlay">
+                    <span class="gold-text">Event</span>
+                    <h3>계절별 페스티벌</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">BDS</a>
+                    <p class="school-name">국제학교</p>
+                </div>
+                <div class="footer-info-grid">
+                    <div class="footer-column">
+                        <span class="gold-text">문의</span>
+                        <p>070-0000-0000</p>
+                        <p>admin@korea.org</p>
+                    </div>
+                    <div class="footer-column">
+                        <span class="gold-text">주소</span>
+                        <p>서울, 대한민국</p>
+                    </div>
+                    <div class="footer-column">
+                        <span class="gold-text">SNS</span>
+                        <div class="footer-socials">
+                            <a href="#" target="_blank">BLOG</a>
+                            <a href="#" target="_blank">YOUTUBE</a>
+                            <a href="#" target="_blank">INSTAGRAM</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="creator-info">
+                    <span class="gold-text">CONTACT</span>
+                    <p class="creator-email">yimirinae@gmail.com</p>
+                </div>
+                <div class="copyright-wrap">
+                    <p>© 2026 Designed by Mirinae Yi</p>
+                    <p class="vision-text">이 프로젝트는 포트폴리오 목적으로 제작되었습니다</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="top-button" class="btn-ghost">
+        <span class="arrow-up"></span>
+        <span class="text-top">TOP</span>
+    </button>
+    <script src="./js/script.js?v=2"></script>
+</body>
+</html>
